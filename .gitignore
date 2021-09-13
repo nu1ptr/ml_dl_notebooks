@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Compile stuff
+build/
+dist/
+*egg-info/
+
+# Pytorch stuff
+*.pt
+
+# Model output stuff
+outputs/**/*.jpg
+
+# Other stuff
+datasets/*
+!datasets/.gitkeep
