@@ -2,6 +2,15 @@
 
 **Note: This is actively being worked on, some parts might not work and there are additional notebooks to be added.**
 
+# Todo:
+1. Create docker container.
+2. Upload all trained pytorch models (Requires a significant amount of cloud storage)
+3. Add Latent Exploration Visualization Outputs to all implemented models.
+4. Cleanup RealNVP (Almost Done)
+5. Clenup Glow
+6. Clean DRAW
+7. Add WaveNet
+
 [All Trained Pytorch Models (Google Drive)](https://drive.google.com/drive/folders/1Uh4wO9dwKD3WlqFVZXUaTnG4v2MfeYpW?usp=sharing)
 
 # Attention Models
