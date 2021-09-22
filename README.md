@@ -18,6 +18,7 @@
 
 # Attention Models
 1. [DRAW: A Recurrent Neural Network For Image Generation](https://arxiv.org/pdf/1502.04623.pdf)
+![](images/NICE-MNIST.gif)
 
 # Flow Models
 1. [NICE: Non-Linear Independent Components Estimation](https://arxiv.org/pdf/1410.8516.pdf)
@@ -36,3 +37,4 @@
 `for param in model.parameters():
     param.grad = None`
 8. Use Fuse pointwise operations via @torch.jit.script. Pointwise operations are memory bound and require multiple kernel calls. jit will fuse these kernels reducing overhead.
+9. torch.distributions do not have a device argument, so to sample directly on the GPU, your distribution parameters must appropriately be placed on the device beforehand.
