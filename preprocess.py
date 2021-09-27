@@ -1,1 +1,6 @@
-# TODO: Add ZCA preprocessor.
+
+def zca():
+    """ Perform ZCA pre-processing via SVD.
+    """
+
+    return
