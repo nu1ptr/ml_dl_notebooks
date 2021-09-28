@@ -17,3 +17,4 @@ outputs/**/*.jpg
 # Other stuff
 datasets/*
 !datasets/.gitkeep
+preprocess/*.npy
