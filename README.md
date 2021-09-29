@@ -24,6 +24,7 @@
 1. [NICE: Non-Linear Independent Components Estimation](https://arxiv.org/pdf/1410.8516.pdf)
 
 ![](images/NICE-MNIST.gif)
+![](images/NICE-CIFAR10.gif)
 
 2. [Density Estimation Using Real NVP](https://arxiv.org/pdf/1605.08803.pdf)
 3. [Glow: Generative Flows with Invertible 1x1 Convolutions](https://arxiv.org/pdf/1807.03039.pdf)
