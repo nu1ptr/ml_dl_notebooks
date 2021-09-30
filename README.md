@@ -45,3 +45,4 @@
     param.grad = None`
 8. Use Fuse pointwise operations via @torch.jit.script. Pointwise operations are memory bound and require multiple kernel calls. jit will fuse these kernels reducing overhead.
 9. torch.distributions do not have a device argument, so to sample directly on the GPU, your distribution parameters must appropriately be placed on the device beforehand.
+10. [NVIDIA DALI: Data loading + Pre-Processing through GPU](https://github.com/NVIDIA/DALI)
